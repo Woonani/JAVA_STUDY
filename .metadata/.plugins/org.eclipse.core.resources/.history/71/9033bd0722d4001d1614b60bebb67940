@@ -1,0 +1,17 @@
+/*
+ Collection FrameWork
+ >> 다수의 데이터를 다루는 표준화된 방법 학습 >> 인터페이스와 클래스로 구현
+ >> 수 많은 인터페이스를 가지고 있다 (다수의 데이터를 효율적으로 다루기 위한)
+ 
+ Iterator 인터페이스
+ 나열된 자원에 대해서 순차적으로 접근해서 값의 유무를 판단하고 값을 리턴하는 표준을 정의
+ 
+ */
+public class Ex08_Collection_Iterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

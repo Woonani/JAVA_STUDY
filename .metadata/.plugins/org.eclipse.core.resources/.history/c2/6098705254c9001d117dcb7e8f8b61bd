@@ -1,0 +1,9 @@
+
+public class Ex15_DoWhileMenu {
+
+	public static void main(String[] args) {
+		DoWhileMenu Menu = new DoWhileMenu();
+
+	}
+
+}

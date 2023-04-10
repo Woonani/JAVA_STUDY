@@ -1,0 +1,52 @@
+class Product {
+	int price;
+	int bonuspoint;
+//	public Product() {
+//		// TODO Auto-generated constructor stub
+//	}
+	Product(int price){
+		this.price = price;
+		this.bonuspoint= (int)(this.price/10.0);
+	}
+}
+
+
+class KtTv extends Product{
+//	class KtTv extends Product{ // 부모가 생성자 오버로딩을 해서 에러 > 부모 디폴트 생성자 만들면 사라지긴 하지만..인수를 넣어야 한다.. 다른방법
+	KtTv(){
+		super(500); // 그래서 대신 super를 써주면 에러 사라짐
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "KtTv";
+	}
+}
+
+class Audio extends Product{
+	Audio(){
+		super(100); 
+	}
+	@Override
+	public String toString() {
+		return "Audio";
+	}
+}
+
+class NoteBook extends Product{
+	NoteBook(){
+		super(150); 
+	}
+	@Override
+	public String toString() {
+		return "NoteBook";
+	}
+}
+public class Ex07_Generic_Product {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

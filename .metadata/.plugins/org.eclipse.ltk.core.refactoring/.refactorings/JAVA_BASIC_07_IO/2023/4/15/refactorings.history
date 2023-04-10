@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Ex09_&apos; to &apos;Ex09_File_Dir_Format&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_BASIC_07_IO&apos;&#x0D;&#x0A;- Original element: &apos;Ex09_&apos;&#x0D;&#x0A;- Renamed element: &apos;Ex09_File_Dir_Format&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ex09_&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Ex09_.java[Ex09_" matchStrategy="1" name="Ex09_File_Dir_Format" qualified="false" references="true" similarDeclarations="false" stamp="1681108076379" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+package kr.or.kosa;
+
+public class MyStack {
+	private Object[] stackarr; // ÀúÀå¼Ò
+	
+	
+	public MyStack(int maxsize) {
+		this.stackarr = new Object [maxsize];
+	}
+}

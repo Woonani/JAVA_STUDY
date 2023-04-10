@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Quiz_Lotto.java&apos; to &apos;JAVA_BASIC_07_IO/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;QuizOrCote&apos;&#x0D;&#x0A;- Destination element: &apos;JAVA_BASIC_07_IO/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Quiz_Lotto.java&apos;" description="Copy compilation unit" destination="=JAVA_BASIC_07_IO/src&lt;" element1="/src&lt;{Quiz_Lotto.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1681104775746" units="1" version="1.0"/>
+</session>

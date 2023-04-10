@@ -1,0 +1,14 @@
+import java.util.Stack;
+
+public class Ex05_Stack_Queue {
+
+	public static void main(String[] args) {
+		// JA
+		Stack stack = new Stack();
+		stack.push("A");
+		stack.push("B");
+		stack.push("C"); 
+
+	}
+
+}

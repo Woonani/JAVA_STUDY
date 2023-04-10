@@ -1,0 +1,19 @@
+package kr.or.kosa;
+
+public class Book {
+	String bookNo;
+	String bookTitle;
+	int price;
+	
+	public Book(String bookNo, String bookTitle, int price) {
+		super();
+		this.bookNo = bookNo;
+		this.bookTitle = bookTitle;
+		this.price = price;
+	}
+	
+	
+
+}
+
+

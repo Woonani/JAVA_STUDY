@@ -1,0 +1,22 @@
+/*
+ Today Point
+ 
+ Byte 데이터를 read / write 대상이 >> File (a.txt)
+ 
+ FileInputStream
+ FileOutputStream
+ 이미지, 엑셀 read, write
+ 
+ File >> 1.txt, 1.data (write, read)
+ 
+ I/O자원은 개발자 직접적으로 자원에대한 해제작업을 해줘야 함
+ 
+ */
+public class Ex02_FileStream {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

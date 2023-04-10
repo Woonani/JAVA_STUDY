@@ -1,0 +1,70 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Product {
+	int price;
+	int bonuspoint;
+
+	Product(int price){
+		this.price = price;
+		this.bonuspoint= (int)(this.price/10.0);
+	}
+}
+
+
+class KtTv extends Product{
+
+	KtTv(){
+		super(500); 
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "KtTv";
+	}
+}
+
+class Audio extends Product{
+	Audio(){
+		super(100); 
+	}
+	@Override
+	public String toString() {
+		return "Audio";
+	}
+}
+
+class NoteBook extends Product{
+	NoteBook(){
+		super(150); 
+	}
+	@Override
+	public String toString() {
+		return "NoteBook";
+	}
+}
+public class Ex07_Generic_Product {
+
+	public static void main(String[] args) {
+		// 1. Array 사용해서 객체 생성
+		// KtTv, Audio, NoteBook을 담을 수 있는 Cart 만드세요
+		Product[] cart = new Product[3];
+		cart[0] = new KtTv();
+		cart[1] = new Audio();
+		cart[2] = new NoteBook();
+		// 단점 : 배열의 크기가 고정
+		
+		//2. ArrayList를 사용해서 Cart를 만드세요
+		List<Product> pcart = new ArrayList<>();
+		pcart.add(new KtTv());
+		pcart.add(new KtTv());
+		pcart.add(new KtTv());
+		pcart.add(new KtTv());
+		pcart.add(new Audio());
+		pcart.add(new NoteBook());
+		
+		
+
+	}
+
+}

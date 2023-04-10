@@ -1,0 +1,11 @@
+import java.io.*;
+
+public class Ex06_Reader_Writer_Buffer {
+
+	public static void main(String[] args) {
+		FileReader fr = null;
+		BufferedReader br = null;
+
+	}
+
+}

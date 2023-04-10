@@ -1,0 +1,51 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+import kr.or.kosa.Message;
+public class Ex15_Queue {
+
+public static void main(String[] args) {
+
+Queue<Message> messageQueue = new LinkedList<Message>();
+
+// ¸Þ¼¼Áö¸¦ º¸³½´Ù.
+
+// È«±æµ¿, È«±æ¼­, È«±æ³²¿¡°Ô ¼ø¼­´ë·Î º¸³½´Ù.
+
+messageQueue.offer(new Message("sendMail","È«±æµ¿"));
+
+messageQueue.offer(new Message("sendSMS","È«±æ¼­"));
+
+messageQueue.offer(new Message("sendKakaotalk","È«±æ³²"));
+
+while(!messageQueue.isEmpty()){
+
+Message message = messageQueue.poll();
+
+switch(message.command){
+
+case "sendMail" :
+
+System.out.println(message.to + "´Ô¿¡°Ô ¸ÞÀÏÀ» º¸³À´Ï´Ù.");
+
+break;
+
+case "sendSMS" :
+
+System.out.println(message.to + "´Ô¿¡°Ô SMSÀ» º¸³À´Ï´Ù.");
+
+break;
+
+case "sendKakaotalk" :
+
+System.out.println(message.to + "´Ô¿¡°Ô Ä«ÅåÀ» º¸³À´Ï´Ù.");
+
+break;
+
+}
+
+}
+
+}
+
+}

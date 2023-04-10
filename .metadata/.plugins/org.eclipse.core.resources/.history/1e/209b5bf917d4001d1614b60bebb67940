@@ -1,0 +1,24 @@
+package kr.or.kosa;
+
+public class MyStack {
+	private Object[] stackarr; // ¿˙¿Âº“
+	
+	
+	public MyStack(int maxsize) {
+		this.stackarr = new Object [maxsize];
+	}
+	
+	public boolean idEmpty() {
+		return false;
+	}
+	
+	public boolean full() {
+		return false;
+	}
+	public void push(Object i) {
+
+	}
+	public Object pop(Object i) {
+		return null;
+	}
+}

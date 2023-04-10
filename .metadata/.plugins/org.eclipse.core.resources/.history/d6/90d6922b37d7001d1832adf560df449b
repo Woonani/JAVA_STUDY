@@ -1,0 +1,19 @@
+/*
+ IO(input / output)
+ 
+ Stream(통로)
+ 데이터 종류 : 이미지, 파일 <> 문자
+ 
+ JAVA API >> 클래스를 제공 받아요
+ 
+ 
+ 
+ */
+public class Ex01_Stream {
+
+	public static void main(String[] args) {
+		//
+
+	}
+
+}
