@@ -7,7 +7,7 @@ import java.io.*;
  Reader, Writer (추상클래스)
  
  파일)
- FileReader, FileWriter
+ FileReader, FileWriter  
  
  */
 public class Ex05_Reader_Writer {
