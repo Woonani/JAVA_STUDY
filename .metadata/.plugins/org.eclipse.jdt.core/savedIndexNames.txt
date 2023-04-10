@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\Douzone\JAVA\Labs\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2344469092.index
-3598798956.index
-2208026862.index
