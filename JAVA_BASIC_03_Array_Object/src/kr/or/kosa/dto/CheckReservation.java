@@ -16,7 +16,7 @@ public class CheckReservation {
 	
 	
 	// 예매 번호를 입력받아 예약한 좌석을 확인하는 함수
-	public int[] checkReservation() {
+	public int[] checkReservation() {  //
 		
 		// 예배번호 입력 받기
 		System.out.println("예매번호 6자리를 입력해주세요.");
